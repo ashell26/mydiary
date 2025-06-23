@@ -1,0 +1,154 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global styles */
+body {
+    background-color: #eceff3;
+    font-family: Arial, sans-serif;
+    color: #0d0c0c;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+#destinasi {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* Header styles */
+header {
+    background-color: #2d3e50;
+    color: #0d0909;
+    padding: 20px 0;
+    box-shadow: 0 4px 8px rgba(248, 238, 238, 0.1);
+}
+
+header h1 {
+    font-size: 2.5em;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #e6dede;
+    font-size: 1.2em;
+}
+
+nav ul li a:hover {
+    color: #f1c40f;
+}
+
+/* Hero section */
+#hero {
+    background: url('images/hero.jpg') no-repeat center center/cover;
+    color: #150303;
+    padding: 100px 0;
+    text-align: center;
+}
+
+#hero h2 {
+    font-size: 3em;
+    margin-bottom: 20px;
+    box-shadow: inset;
+}
+
+#hero p {
+    font-size: 1.5em;
+}
+
+/* Destinasi Section */
+#destinasi {
+    margin: 50px 0;
+    ;
+}
+
+#destinasi h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.destinasi-card {
+    display: flex;
+    margin-bottom: 30px;
+    background-color: #506b87;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(248, 238, 238, 0.1);
+    overflow: hidden;
+}
+
+.destinasi-card img {
+    width: 40%;
+    object-fit: cover;
+    align-items: center;
+}
+
+.destinasi-info {
+    padding: 10px;
+    width: 60%;
+}
+
+.destinasi-info h3 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+.destinasi-info p {
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+
+/* About Section */
+#about {
+    background-color: #506b87;
+    padding: 10px 0;
+    text-align: center;
+}
+
+#about h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+/* Contact Section */
+#contact {
+    background-color:  #506b87;
+    padding: 15px 0;
+    text-align: center;
+}
+
+#contact h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+#contact p {
+    font-size: 1.2em;
+}
+
+/* Footer Section */
+footer {
+    background-color:#2d3e50;
+    color: #1a0505;
+    text-align: center;
+    padding: 20px 0;
+}
